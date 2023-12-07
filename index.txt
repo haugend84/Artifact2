@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- This website template was created by: David Haugen -->
+<!-- This website file name is script_template created on 09/06/2023 -->
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	</head>
+	<body>
+	
+	<!-- Use the header area for the website name or logo -->
+	<header>
+	<h1>David Haugen</h1>
+	<a href="template.html"><img src="images/davidhaugen.png" alt="David Haugen Personal Photo" height="500" width="375"></a>
+	<h2>To provide top-notch inspection Services</h2>
+	</header>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	<nav>
+		<p><a href="index.html">Home</a> &nbsp; &#9475; &nbsp;
+		<a href="nde.html">NDE Methods</a> &nbsp; &#9475; &nbsp;
+		<a href="inspection.html">Inspection Discipline Services</a> &nbsp; &#9475; &nbsp;
+		<a href="team.html">Team</a> &nbsp; &#9475; &nbsp;
+		<a href="industry.html">Industry Standards</a> &nbsp; &#9475; &nbsp;
+		<a href="history.html">History Serving Clients</a> &nbsp; &#9475; &nbsp;
+		<a href="contact.html">Contact Us</a></p>
+	</nav>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+	
+		<p>"Inspect with Confidence": Your Shield of Assurance!".</p>
+		
+		<!-- Provide additional paragrahs as needed using <p> -->
+		
+		
+	</main>
+	
+	<!-- Use the footer area to add webpage footer content -->
+		<footer>
+		<p>&copy;Copyright 2021.  All Rights Reserved.</p>
+		<p><a href="mailto:dhaugen@kent.edu">dhaugen@kent.edu</a></p>
+		</footer>
+	
+	</body>
+	</html>
