@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- This website contact page was created by: David Haugen -->
+<!-- This website file name is contact.html created on 09/16/2023 -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="container">
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.html">Home</a>
+            <a href="nde.html">NDE</a>
+            <a href="team.html">Team</a>
+            <a href="industry.html">Industry Standards</a>
+            <a href="history.html">History</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
+    </nav>
+
+    <article>
+        <!-- Use the header area for the website name or logo -->
+        <header id="ffc-logo">
+            <h1>David Haugen</h1>
+            <h2>Providing top-notch inspection services across the world</h2>
+        </header>
+
+        <!-- Tablet Desktop Nav -->
+        <nav class="tablet-desktop">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nde.html">NDE</a></li>
+                <li><a href="inspection.html">Inspection Service</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="industry.html">Industry Standards</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Use the main area to add the main content of the webpage -->
+        <main class="two-columns">
+
+            <!-- First column (aside) for contact information -->
+            <aside class="tel-link">
+                <a href="tel:5806280651">(580)628-0651</a>
+            </aside>
+
+            <!-- Use section for embedding Google Maps -->
+            <section>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.5688107670308!2d-80.57781592368738!3d40.61733617140802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883416f7646f0a77%3A0x830545b6c04e6821!2sKent%20State%20University%20East%20Liverpool%20Campus!5e0!3m2!1sen!2sus!4v1694912209540!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+            <!-- Second column (form) for user input -->
+            <form id="contact-form">
+                <h4>Complete the form below to schedule a free 30-minute consultation.</h4>
+
+                <!-- Fieldset for customer information -->
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="fname" required>
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" id="lname" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </fieldset>
+
+                <!-- Fieldset for additional information -->
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <p>I would like more information about:</p>
+
+                    <label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Group Fitness">Group Fitness</label>
+
+                    <label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Personal Training">Personal Training</label>
+
+                    <label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Nutrition">Nutrition</label>
+                </fieldset>
+
+                <!-- Fieldset for referral source -->
+                <fieldset>
+                    <legend>Referral Source</legend>
+                    <label for="reference">How did you find us?</label>
+                    <select name="reference" id="reference">
+                        <option value="ad">Advertisement</option>
+                        <option value="friend">Friend</option>
+                        <option value="google">Google</option>
+                        <option value="social">Social Media</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="questions">Questions?</label>
+                    <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                </fieldset>
+            </form>
+
+        </main>
+
+        <!-- Use the footer area to add webpage footer content -->
+        <footer>
+            <p>&copy; Copyright 2021. All Rights Reserved.</p>
+            <p><a href="mailto:dhaugen@kent.edu">dhaugen@kent.edu</a></p>
+        </footer>
+    </article>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>

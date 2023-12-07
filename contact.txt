@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- This website contact page was created by: David Haugen -->
+<!-- This website file name is contact.html created on 09/16/2023 -->
+<html lang="en">
+<head>
+	<title>contact</title>
+	<meta charset="utf-8">
+	</head>
+	<body>
+	
+	
+	<div id="container">
+	
+	<!-- Use the header area for the website name or logo -->
+	<header>
+	<h1>David Haugen</h1>
+	<h2>To provide top-notch inspection Services</h2>
+	</header>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	<nav>
+		<p><a href="index.html">Home</a> &nbsp; &#9475; &nbsp;
+		<a href="nde.html">NDE Methods</a> &nbsp; &#9475; &nbsp;
+		<a href="inspection.html">Inspection Discipline Services</a> &nbsp; &#9475; &nbsp;
+		<a href="team.html">Team</a> &nbsp; &#9475; &nbsp;
+		<a href="industry.html">Industry Standards</a> &nbsp; &#9475; &nbsp;
+		<a href="history.html">History Serving Clients</a> &nbsp; &#9475; &nbsp;
+		<a href="contact.html">Contact Us</a></p>
+	</nav>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+	
+		<p>"Inspect with Confidence": Your Shield of Assurance!".</p>
+		
+		<div id="contact">
+		
+			<h2>Ready to get started? Contact us today.</h2>
+			<h4>Call us: (580) 628-0651</h4>
+			<h4>Visit us at: 1171 Forsyth Place East Liverpool, OH 43920</h4>
+			
+		
+		<!-- Provide additional paragraphs as needed using <p> -->
+		
+	</div>
+		
+		</main>
+	
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			<p>&copy;Copyright 2021.  All Rights Reserved.</p>
+			<p><a href="mailto:dhaugen@kent.edu">dhaugen@kent.edu</a></p>
+
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.5688107670308!2d-80.57781592368738!3d40.61733617140802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883416f7646f0a77%3A0x830545b6c04e6821!2sKent%20State%20University%20East%20Liverpool%20Campus!5e0!3m2!1sen!2sus!4v1694912209540!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</footer>
+		
+		</div>
+	</body>
+	</html>
