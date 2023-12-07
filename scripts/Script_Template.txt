@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- This website template was created by: David Haugen -->
+<!-- This website file name is script_template created on 09/06/2023 -->
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	</head>
+	<body>
+	
+	<!-- Use the header area for the website name or logo -->
+	<header>
+	<h1>David Haugen</h1>
+	<h2>To provide top-notch inspection Services</h2>
+	</header>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	<nav>
+	<p>Home &nbsp; &#9475; &nbsp;
+	NDE Methods &nbsp; &#9475; &nbsp;
+	Inspection Discipline Services &nbsp; &#9475; &nbsp;
+	Team &nbsp; &#9475; &nbsp;
+	Industry Standards &nbsp; &#9475; &nbsp;
+	History Serving Clients &nbsp; &#9475; &nbsp;
+	Contact Us</p>
+	</nav>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+	
+		<p>"Inspect with Confidence": Your Shield of Assurance!".</p>
+		
+		<!-- Provide additional paragrahs as needed using <p> -->
+		
+		
+	</main>
+	
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+	<p>&copy;Copyright 2023.  All Rights Reserved.</p>
+	<p>haugend84@yahoo.com</p>
+	</footer>
+	
+	</body>
+	</html>
